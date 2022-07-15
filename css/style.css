@@ -21,7 +21,7 @@ body {
     border: blue 5px solid;
 }
 
-#rNumbers {
+#rNumbers , #numeriGiusti {
 
     line-height: 100px;
     text-align: center;
