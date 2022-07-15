@@ -13,5 +13,4 @@ randomNumbers.append(arrayNumb)
 for(i=0 ; i<6 ; i++){
 
     let numeroInserito = prompt('Inserisci un Valore');
-    if (numeroInserito.value.includes(arrayNumb));
 }
