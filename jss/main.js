@@ -3,6 +3,7 @@ let numeriGiusti = document.getElementById('numeriGiusti')
 let arrayNumb = [];
 let numeriInseriti = []
 let numeroInserito;
+let numeroUguale = false;
 
 
 for (let i=0 ; i<5 ; i++){
@@ -33,9 +34,11 @@ setTimeout(function() {
         numeroInserito = parseInt(prompt('Inserisci un Valore'));
     
         if(arrayNumb.includes(numeroInserito)){
-    
-            numeriInseriti.push(parseInt(numeroInserito));
             console.log('si')
+
+            if(!(numeriInseriti.includes(numeroInserito))){
+                numeriInseriti.push(parseInt(numeroInserito));
+            }
         }
     
         else {
